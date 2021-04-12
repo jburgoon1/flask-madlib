@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Information{% endblock %}
+{% block content %}
+<form action="/story.html">
+    <label for="place">Place:</label>
+<input type="text" placeholder="Place" id = "place" name = 'place'>
+    <label for="Noun">Noun:</label>
+<input type="text" placeholder="Noun" id = "Noun" name = 'noun'>
+    <label for="Verb">Verb:</label>
+<input type="text" placeholder="Verb" id = "Verb" name = 'verb'>
+    <label for="Adjective">Adjective:</label>
+<input type="text" placeholder="Adjective" id = "Adjective" name = 'adjective'>
+    <label for="Plural_Noun">Plural Noun:</label>
+<input type="text" placeholder="Plural Noun" id = "Plural_Noun" name = 'plural_noun'>
+<button>Submit</button>
+</form>
+{% endblock %}
